@@ -63,3 +63,17 @@ h2{
 .mountain{
     width: 40%;
 }
+
+@media all and (max-width: 1029px) {
+    .mobile area {
+        background-size: contain ;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header .logo-area {
+        float: none;
+        padding: 15px 0 20px;
+        text-align: center;
+    }
+}
